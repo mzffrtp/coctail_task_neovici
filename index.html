@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Your App Title</title>
+    <link href="./src/styles.css" rel="stylesheet" />
+    <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="./node_modules/lit/polyfill-support.js"></script>
+    <script type="module" src="./src/context/shoppingListContext.js"></script>
+  </head>
+  <body>
+    <use-context>
+      <page-element></page-element>
+    </use-context>
+
+    <script type="module" src="./src/app.js"></script>
+    <script type="module" src="./src/pages/page.js"></script>
+    <script type="module" src="./src/pages/components/results/results.js"></script>
+    <script type="module" src="./src/pages/components/shopping-list/shoppingList.js"></script>
+    <script type="module" src="./src/pages/components/toast/toast.js"></script>
+
+   
+  </body>
+</html>
